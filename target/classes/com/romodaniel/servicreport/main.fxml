@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.*?>
+<?import javafx.scene.layout.*?>
+
+<TabPane tabClosingPolicy="UNAVAILABLE"
+         xmlns="http://javafx.com/javafx/17.0.2-ea"
+         xmlns:fx="http://javafx.com/fxml/1"
+         fx:controller="com.romodaniel.servicreport.controllers.MainController"
+         fx:id="mMainTabPane">
+    <tabs>
+      <Tab text="Service Report">
+        <fx:include source="serviceReports.fxml" />
+      </Tab>
+      <Tab text="Receipt">
+        <fx:include source="receipt.fxml"/>
+      </Tab>
+    </tabs>
+</TabPane>
